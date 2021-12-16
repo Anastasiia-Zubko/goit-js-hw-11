@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+}
+.search-form {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  padding-top: 25px;
+  padding-bottom: 15px;
+  width: 100%;
+  background-color: #1f307e;
+}
+input {
+  padding: 5px;
+  width: 300px;
+  border-radius: 3px;
+}
+.search-form > button {
+  background-color: #7fd182;
+  border: none;
+  color: white;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 5px;
+}
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -10px;
+  padding: 70px 30px 30px 30px;
+}
+.photo-card {
+  margin: 10px;
+  width: calc((100% - 80px) / 4);
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.pic-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 5px 10px;
+}
+.pic-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 15px;
+}
+.pic-info > b {
+  margin-bottom: 5px;
+}
+.load-more.is-hidden {
+  display: none;
+}
+.load-more {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  padding: 7px 14px 7px 14px;
+  background-color: rgb(37, 37, 218);
+  color: white;
+  border: none;
+  border-radius: 2px;
+}
